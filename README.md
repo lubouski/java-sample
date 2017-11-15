@@ -42,6 +42,13 @@ Just git clone repo to some folder, and then execute command
 ```
 gradle build
 ```
+```
+cd build/libs
+```
+```
+java -jar package.jar
+```
+
 
 
 
