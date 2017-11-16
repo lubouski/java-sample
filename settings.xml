@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<settings>
+  ...
+  <mirrors>
+    <mirror>
+      <id>Nexus</id>
+      <name>Nexus Public Mirror</name>
+      <username>admin</username>
+      <password>admin123</password>
+      <url>http://192.168.56.4:8081/repository/Maven-proxy/</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+  </mirrors>
+  ...
+</settings>
